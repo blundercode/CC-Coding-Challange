@@ -1,0 +1,106 @@
+
+.card-title{  
+    background-color: firebrick;
+    color: whitesmoke;
+    width: 300px;
+    position: absolute;
+    top: 239px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.card{
+  width: 500px;
+}
+.card-spill{
+  opacity: 0;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+}
+.card-description{
+  height: 70px;
+}
+.card-content{
+  color:white;
+  padding-top: 10px;
+  background-color: firebrick;
+  width: 455px;
+  -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+}
+
+.card:hover .card-title{
+  margin-top:-150px;
+}
+.card:hover .card-content{
+  margin-top:-150px;
+  height:200px;
+
+}
+.card:hover .card-spill{
+  opacity: 1;
+}
+
+.card-image-1{
+   width: 455px;
+    height: 302px;
+    background: url(http://www.campchef.com/media/wysiwyg/campchef/cms_content/14-system-main.jpg) no-repeat;
+    background-size: 544px 361px;
+    border-radius: 1px 1px 0 0;
+}
+.card-image-2{
+   width: 455px;
+    height: 302px;
+    background: url(http://www.campchef.com/media/wysiwyg/campchef/cms_content/16-system-main.jpg) no-repeat;
+    background-size: 544px 361px;
+    border-radius: 1px 1px 0 0;
+}
+.card-image-3{
+   width: 455px;
+    height: 302px;
+    background: url(http://www.campchef.com/media/wysiwyg/campchef/homeslide_mountainseries.jpg) no-repeat;
+    background-size: 544px 361px;
+    border-radius: 1px 1px 0 0;
+}
+.card-image-4{
+   width: 455px;
+    height: 302px;
+    background: url(http://www.campchef.com/media/wysiwyg/campchef/HomeBanner_1920x802_12.jpg) no-repeat;
+    background-size: 544px 361px;
+    border-radius: 1px 1px 0 0;
+}
+.card-image-5{
+   width: 455px;
+    height: 302px;
+    background: url(http://www.campchef.com/media/wysiwyg/campchef/homeslide_fp40.jpg) no-repeat;
+    background-size: 544px 361px;
+    border-radius: 1px 1px 0 0;
+}
+.card-details{
+      background-color: firebrick;
+    position: absolute;
+    width: 455px;
+    top: 320px;
+    color: white;
+}
+.card-extras{
+  text-align: center;
+  margin-top: 40px;
+}
+.card-extras a{
+    color:white !important;
+  text-decoration: underline;
+}
+.seperate{
+  margin-top: 15px;
+   height: 400px;
+
+}

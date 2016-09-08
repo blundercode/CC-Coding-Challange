@@ -1,0 +1,31 @@
+.header{
+  position:fixed;
+  z-index:9999;
+  background-color: white;
+}
+.live-chat-holder{
+  position: absolute;
+  top: -12px;
+  background-color: firebrick;width: 102px;
+  height: 48px;
+  left: -1px;
+  border-radius:4px;
+  transition: all .2s ease-in-out;
+}
+.live-chat-holder:hover{
+  height: 57px;
+  border-radius:5px;
+}
+.live-chat-text{
+  padding-top: 19px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.content{
+  margin-top: 50px;
+}
+.breadcrumbs{
+  margin:0 !important;
+  padding-right:10px;
+}
