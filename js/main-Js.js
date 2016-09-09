@@ -1,3 +1,4 @@
+//Handles tabs in footer////////
 $(document).ready(function () {
     $('.footer-tab').click(function () {
 		      var tab_id = $(this).attr('data-tab');

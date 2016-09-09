@@ -1,0 +1,81 @@
+.info-pane{
+  padding-left: 50%
+}
+.info-pane-image{
+   width: 35%;
+    position: absolute;
+    height: 450px;
+    background: url(http://www.campchef.com/media/wysiwyg/campchef/cms_content/14-system-depth.jpg) no-repeat;
+    background-size: 100% 100%;
+    margin-left: -35%;
+    border-radius: 1px 1px 0 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+}
+.info-pane-title{
+    background-color: firebrick;
+    color: white;
+    text-align: right;
+    position: absolute;
+    top: 0px;
+    margin-left: -26%;
+    margin-top: 25px;
+}
+.info-pane-content{
+     background-color: firebrick;
+    width: 80%;
+    height: 450px;
+    top: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  }
+  .info-pane-text{
+    color: white;
+    font-size: x-large;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  .info-pane-extras{
+    width: 100%;
+    height: 100%;
+    padding-left: 15%;
+    padding-top: 25px;
+  }
+  .pane-video{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  }
+  .carousel {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 25%;
+  height: 400px;
+  margin-right: 10px;
+  counter-increment: gallery-cell;
+}
+
+.carousel-cell.is-selected {
+ box-shadow: 0px 0px 2px 2px rgb(92, 184, 92);
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.carousel-cell{
+  height:420px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.thumbnail {margin-bottom:0px;text-align: center;box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);}
+.thumbnail p {color:green;}
+
+.carousel-title{
+  text-align: center;
+  margin-top:25px;
+  margin-bottom: 25px;
+}
