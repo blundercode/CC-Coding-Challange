@@ -129,13 +129,12 @@ ul.tabs{
     .comment-input{
 
     }
-     .comment-input input{
-     width: 80%;
-    height: 121px; 
+     .comment-input input{width: 80%;
+      height: 121px; 
     margin-left: 110px;
     }
     .comment-post div{
-          margin-left: 147px;
-    margin-bottom: 20px;
-    margin-top: 20px;  
+      margin-left: 147px;
+      margin-bottom: 20px;
+      margin-top: 20px;  
     }
